@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://chvsj021vbvso"]
+
+[ext_resource type="Script" uid="uid://5ilitndt036n" path="res://main_menu.gd" id="1_06t4h"]
+
+[node name="MainMenu" type="Node2D" unique_id=860852229]
+script = ExtResource("1_06t4h")
+
+[node name="TitleLabel" type="Label" parent="." unique_id=1640908288]
+offset_left = 19.0
+offset_top = 91.0
+offset_right = 1153.0
+offset_bottom = 135.0
+theme_type_variation = &"HeaderLarge"
+text = "2d Platformer"
+horizontal_alignment = 1
+
+[node name="StartButton" type="Button" parent="." unique_id=1721772586]
+offset_left = 548.0
+offset_top = 191.0
+offset_right = 594.0
+offset_bottom = 222.0
+text = "Start
+"
+
+[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
