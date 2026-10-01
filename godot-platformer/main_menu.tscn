@@ -11,7 +11,7 @@ offset_top = 91.0
 offset_right = 1153.0
 offset_bottom = 135.0
 theme_type_variation = &"HeaderLarge"
-text = "2d Platformer"
+text = "Dragon Legends"
 horizontal_alignment = 1
 
 [node name="StartButton" type="Button" parent="." unique_id=1721772586]
