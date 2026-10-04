@@ -6,19 +6,19 @@
 script = ExtResource("1_06t4h")
 
 [node name="TitleLabel" type="Label" parent="." unique_id=1640908288]
-offset_left = 19.0
-offset_top = 91.0
-offset_right = 1153.0
-offset_bottom = 135.0
+offset_left = 6.0
+offset_top = 99.0
+offset_right = 1149.0
+offset_bottom = 143.0
 theme_type_variation = &"HeaderLarge"
-text = "Dragon Legends"
+text = "Shubo Legends"
 horizontal_alignment = 1
 
 [node name="StartButton" type="Button" parent="." unique_id=1721772586]
-offset_left = 548.0
-offset_top = 191.0
-offset_right = 594.0
-offset_bottom = 222.0
+offset_left = 529.0
+offset_top = 204.0
+offset_right = 619.0
+offset_bottom = 273.0
 text = "Start
 "
 
