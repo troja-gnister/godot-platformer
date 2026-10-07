@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://dgjpulns6x3vk"]
+
+[ext_resource type="Texture2D" uid="uid://4lwl4nfxtjv7" path="res://monochrome_tilemap_transparent.png" id="1_ba8gm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_26js7"]
+size = Vector2(17, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hn12h"]
+atlas = ExtResource("1_ba8gm")
+region = Rect2(323, 34, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ql1ji"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hn12h")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Door" type="Area2D" unique_id=1926672079]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2019421579]
+position = Vector2(0.5, 0.5)
+shape = SubResource("RectangleShape2D_26js7")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1112755146]
+sprite_frames = SubResource("SpriteFrames_ql1ji")
